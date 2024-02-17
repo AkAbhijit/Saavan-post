@@ -23,9 +23,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.21",
-    "discord-rose": "latest",
-    "discord.js": "latest",
-    "eris": "latest",
     "typescript": "^5.3.3",
     "oceanic.js": "latest"
   },
