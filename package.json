@@ -1,7 +1,7 @@
 {
   "name": "saavan-post",
-  "version": "1.0.0",
-  "description": "A simple discord package based on oceanic.js to post stats to top.gg",
+  "version": "1.0.2",
+  "description": "A simple discord package to post stats to top.gg",
   "main": "dist/index.js",
   "scripts": {
     "test": "node ./tests/test.js",
@@ -17,18 +17,21 @@
   },
   "keywords": [
     "top.gg",
-    "oceanic.js"
+    "oceanic.js",
+    "seyfert"
   ],
   "author": "AkAbhijit",
   "license": "MIT",
   "devDependencies": {
     "@types/express": "^4.17.21",
-    "typescript": "^5.3.3",
-    "oceanic.js": "latest"
+    "typescript": "^5.3.3"
+    
   },
   "dependencies": {
     "@jpbberry/typed-emitter": "^1.2.1",
-    "@top-gg/sdk": "^3.1.6"
+    "@top-gg/sdk": "^3.1.6",
+    "oceanic.js": "latest",
+    "seyfert": "1.5.0"
   },
   "types": "./dist/index.d.ts"
 }
